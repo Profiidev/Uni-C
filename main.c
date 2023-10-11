@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "ggT/ggT.h"
+#include "ueb0/ueb0.h"
 
 int main() {
-    printf("Hello, World!\n");
-    printf("ggT(10, 5) = %d\n", ggT(10, 5));
+    main_();
     return 0;
 }
