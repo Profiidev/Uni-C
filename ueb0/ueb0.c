@@ -20,7 +20,7 @@ int pow_rec_(int base, int exp) {
 }
 
 //main function
-int main_() {
+int powTest() {
     int base = 2;
     int exp = 3;
     int result = pow_(base, exp);

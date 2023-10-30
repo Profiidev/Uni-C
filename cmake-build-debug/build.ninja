@@ -67,6 +67,30 @@ build CMakeFiles/C.dir/ueb0/ueb0.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir\ueb0
 
+build CMakeFiles/C.dir/vorl0/vorl0.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/vorl0/vorl0.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\vorl0\vorl0.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\vorl0
+
+build CMakeFiles/C.dir/ueb1/benzin.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/ueb1/benzin.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ueb1\benzin.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\ueb1
+
+build CMakeFiles/C.dir/dastr/sin/sinDataTable.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/dastr/sin/sinDataTable.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\dastr\sin\sinDataTable.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\dastr\sin
+
+build CMakeFiles/C.dir/vorl1/vorl1.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/vorl1/vorl1.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\vorl1\vorl1.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\vorl1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C
@@ -75,7 +99,7 @@ build CMakeFiles/C.dir/ueb0/ueb0.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/
 #############################################
 # Link the executable C.exe
 
-build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/ggT/ggT.c.obj CMakeFiles/C.dir/ueb0/ueb0.c.obj
+build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/ggT/ggT.c.obj CMakeFiles/C.dir/ueb0/ueb0.c.obj CMakeFiles/C.dir/vorl0/vorl0.c.obj CMakeFiles/C.dir/ueb1/benzin.c.obj CMakeFiles/C.dir/dastr/sin/sinDataTable.c.obj CMakeFiles/C.dir/vorl1/vorl1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C.dir

@@ -7,4 +7,4 @@
 
 #endif //C_UEB0_H
 
-int main_();
+int powTest();

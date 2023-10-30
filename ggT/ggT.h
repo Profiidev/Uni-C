@@ -3,4 +3,4 @@
 
 #endif //C_GGT_H
 
-int ggT(int a, int b);
+int ggTTest();
