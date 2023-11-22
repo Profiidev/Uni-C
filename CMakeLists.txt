@@ -14,4 +14,21 @@ add_executable(C main.c
         ueb1/benzin.h
         dastr/sin/sinDataTable.c
         dastr/sin/sinDataTable.h
-        vorl1/vorl1.c)
+        vorl1/vorl1.c
+        dastr/recursive/recursive.c
+        ueb4/datentypen.c
+        ueb4/datentypen.h
+        dastr/primzahlen/primzahlen.h
+        dastr/primzahlen/primzahlen.c
+        ueb5/helper.c
+        ueb5/helper.h
+        ueb5/calculator.c
+        ueb5/calculator.h
+        dastr/primfactorZerlegung/primfactorZerlegung.c
+        dastr/primfactorZerlegung/primfactorZerlegung.h
+        vorl2/vorl2.c
+        vorl2/vorl2.h
+        ueb6/rational.c
+        ueb6/rational.h
+        ueb6/bruchrechnung.c
+        ueb6/bruchrechnung.h)
