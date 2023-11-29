@@ -11,9 +11,11 @@
 //#include "ueb5/calculator.h"
 //#include "dastr/primfactorZerlegung/primfactorZerlegung.h"
 //#include "vorl2/vorl2.h"
-#include "ueb6/bruchrechnung.h"
+//#include "ueb6/bruchrechnung.h"
+#include "ueb7/loops.h"
 
 int main() {
-    bruchrechnung();
+    ueb7();
+
     return 0;
 }

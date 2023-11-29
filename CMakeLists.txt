@@ -31,4 +31,6 @@ add_executable(C main.c
         ueb6/rational.c
         ueb6/rational.h
         ueb6/bruchrechnung.c
-        ueb6/bruchrechnung.h)
+        ueb6/bruchrechnung.h
+        ueb7/loops.c
+        ueb7/loops.h)
