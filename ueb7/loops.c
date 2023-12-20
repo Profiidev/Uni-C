@@ -87,10 +87,10 @@ void calculateRow(int i) {
 void printTable(int limit) {
     int i;
 
-    line(100, '-');
+    //line(100, '-');
     //printf("i\t1/i\t\tsum\t\ti!\t\t1/i!\t\te\n");
     printf("i\t1/i\tsum\t\ti!\t\t1/i!\t\te\t\ti!-digits\n");
-    line(100, '-');
+    //line(100, '-');
 
     for(i = 1; i <= limit; i++) {
         struct Row_s row = rows[i-1];
