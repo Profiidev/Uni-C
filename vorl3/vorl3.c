@@ -24,7 +24,7 @@ void vorl3() {
     MatrixPrint(matrixB);
     printf("\n");
 
-    Matrixf matrixC = MatrixMatMul(&matrixA, &matrixB);
+    Matrixf matrixC = MatrixMatMul(matrixA, matrixB);
     MatrixPrint(matrixC);
     printf("\n");
 

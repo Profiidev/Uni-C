@@ -19,7 +19,7 @@ int pow_rec_(int base, int exp) {
     return base * pow_rec_(base, exp - 1);
 }
 
-//main function
+//ueb10 function
 int powTest() {
     int base = 2;
     int exp = 3;

@@ -13,10 +13,11 @@
 //#include "vorl2/vorl2.h"
 //#include "ueb6/bruchrechnung.h"
 //#include "ueb7/loops.h"
-#include "vorl3/vorl3.h"
+//#include "vorl3/vorl3.h"
+#include "ueb10/stats.h"
 
-int main() {
-    vorl3();
+int main(int argc, char *argv[]) {
+    ueb10(argc, argv);
 
     return 0;
 }

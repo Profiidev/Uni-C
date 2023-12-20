@@ -5,20 +5,19 @@ Matrixf MatrixArange(int rows, int cols) {
     Matrixf matrix = MatrixZeros(rows, cols);
 
     for (int i = 0; i < rows * cols; ++i) {
-        matrix.data[i] = i;
+        MatrixSetElement(&matrix, i / cols, i % cols, i);
     }
 
     return matrix;
 }
 
 Matrixf MatrixZeros(int rows, int cols) {
-    Matrixf matrix;
-    matrix.rows = rows;
-    matrix.cols = cols;
-    matrix.data = malloc(rows * cols * sizeof(double));
+    Matrixf matrix = {rows, cols, NULL};
+    matrix.data = calloc(rows * cols, rows * cols * sizeof(double));
 
-    for (int i = 0; i < rows * cols; ++i) {
-        matrix.data[i] = 0;
+    if(matrix.data == NULL) {
+        printf("Error: malloc failed in MatrixZeros()\n");
+        exit(1);
     }
 
     return matrix;
@@ -32,13 +31,13 @@ void MatrixSetElement(Matrixf *matrix, int row, int col, double value) {
     matrix->data[row * matrix->cols + col] = value;
 }
 
-Matrixf MatrixMatMul(Matrixf *matrixA, Matrixf *matrixB) {
-    Matrixf matrixC = MatrixZeros(matrixA->rows, matrixB->cols);
+Matrixf MatrixMatMul(Matrixf matrixA, Matrixf matrixB) {
+    Matrixf matrixC = MatrixZeros(matrixA.rows, matrixB.cols);
 
-    for (int i = 0; i < matrixA->rows; ++i) {
-        for (int j = 0; j < matrixB->cols; ++j) {
-            for (int k = 0; k < matrixA->cols; ++k) {
-                matrixC.data[i * matrixC.cols + j] += MatrixGetElement(matrixA, i, k) * MatrixGetElement(matrixB, k, j);
+    for (int i = 0; i < matrixA.rows; ++i) {
+        for (int j = 0; j < matrixB.cols; ++j) {
+            for (int k = 0; k < matrixA.cols; ++k) {
+                matrixC.data[i * matrixC.cols + j] += MatrixGetElement(&matrixA, i, k) * MatrixGetElement(&matrixB, k, j);
             }
         }
     }

@@ -35,4 +35,8 @@ add_executable(C main.c
         ueb7/loops.c
         ueb7/loops.h
         vorl3/matrix.c
-        vorl3/vorl3.c)
+        vorl3/vorl3.c
+        ueb10/util.c
+        ueb10/util.h
+        ueb10/stats.c
+        ueb10/stats.h)

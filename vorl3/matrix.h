@@ -18,7 +18,7 @@ Matrixf MatrixZeros(int rows, int cols);
 double MatrixGetElement(Matrixf *matrix, int row, int col);
 void MatrixSetElement(Matrixf *matrix, int row, int col, double value);
 
-Matrixf MatrixMatMul(Matrixf *matrixA, Matrixf *matrixB);
+Matrixf MatrixMatMul(Matrixf matrixA, Matrixf matrixB);
 
 void MatrixFree(Matrixf *matrix);
 void MatrixPrint(Matrixf matrix);
