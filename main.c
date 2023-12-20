@@ -12,12 +12,10 @@
 //#include "dastr/primfactorZerlegung/primfactorZerlegung.h"
 //#include "vorl2/vorl2.h"
 //#include "ueb6/bruchrechnung.h"
-//#include "ueb7/loops.h"
-#include "ueb9/ueb9.h"
-#include "vorl3/vorl3.h"
+#include "ueb7/loops.h"
 
 int main() {
-    vorl3();
+    ueb7();
 
     return 0;
 }

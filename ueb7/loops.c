@@ -10,9 +10,9 @@ int ueb7(void) {
 
     int limit;
 
-    line(77, '-');
+    lines(77, '-');
     printf("Exp: Berechnung von einfachen Funktionen\n");
-    line(77, '-');
+    lines(77, '-');
 
     limit = readLimit(MAX_LIMIT);
     printf("%d\n", limit);
@@ -27,7 +27,7 @@ int ueb7(void) {
 
 
 /* Gibt n mal das Zeichen c aus */
-void line(int n, char c) {
+void lines(int n, char c) {
     int i;
 
     for (i = 1; i <= n; i++) {

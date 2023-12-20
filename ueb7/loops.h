@@ -19,7 +19,7 @@ struct Row_s {
 /* Prototypen der benötigten Funktionen */
 
 /* Gibt n mal das Zeichen c aus  */
-void line(int n, char c);
+void lines(int n, char c);
 
 /**
  * Liest den oberen Grenzwert ein und prüft ob sich der eingegebene Wert in [1; cMax] befindet.

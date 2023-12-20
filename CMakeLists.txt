@@ -33,15 +33,4 @@ add_executable(C main.c
         ueb6/bruchrechnung.c
         ueb6/bruchrechnung.h
         ueb7/loops.c
-        ueb7/loops.h
-        ueb9/prime.c
-        ueb9/prime.h
-        ueb9/vectors.c
-        ueb9/vectors.h
-        ueb9/ueb9.c
-        ueb9/ueb9.h
-        vorl3/matrix.c
-        vorl3/matrix.h
-        vorl3/vorl3.c
-        vorl3/vorl3.h
-)
+        ueb7/loops.h)
