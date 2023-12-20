@@ -151,6 +151,36 @@ build CMakeFiles/C.dir/ueb7/loops.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir\ueb7
 
+build CMakeFiles/C.dir/ueb9/prime.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/ueb9/prime.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ueb9\prime.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\ueb9
+
+build CMakeFiles/C.dir/ueb9/vectors.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/ueb9/vectors.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ueb9\vectors.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\ueb9
+
+build CMakeFiles/C.dir/ueb9/ueb9.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/ueb9/ueb9.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ueb9\ueb9.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\ueb9
+
+build CMakeFiles/C.dir/vorl3/matrix.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/vorl3/matrix.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\vorl3\matrix.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\vorl3
+
+build CMakeFiles/C.dir/vorl3/vorl3.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users/benja/Documents/Coding/C/vorl3/vorl3.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\vorl3\vorl3.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\vorl3
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C
@@ -159,7 +189,7 @@ build CMakeFiles/C.dir/ueb7/loops.c.obj: C_COMPILER__C_unscanned_Debug C$:/Users
 #############################################
 # Link the executable C.exe
 
-build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/ggT/ggT.c.obj CMakeFiles/C.dir/ueb0/ueb0.c.obj CMakeFiles/C.dir/vorl0/vorl0.c.obj CMakeFiles/C.dir/ueb1/benzin.c.obj CMakeFiles/C.dir/dastr/sin/sinDataTable.c.obj CMakeFiles/C.dir/vorl1/vorl1.c.obj CMakeFiles/C.dir/dastr/recursive/recursive.c.obj CMakeFiles/C.dir/ueb4/datentypen.c.obj CMakeFiles/C.dir/dastr/primzahlen/primzahlen.c.obj CMakeFiles/C.dir/ueb5/helper.c.obj CMakeFiles/C.dir/ueb5/calculator.c.obj CMakeFiles/C.dir/dastr/primfactorZerlegung/primfactorZerlegung.c.obj CMakeFiles/C.dir/vorl2/vorl2.c.obj CMakeFiles/C.dir/ueb6/rational.c.obj CMakeFiles/C.dir/ueb6/bruchrechnung.c.obj CMakeFiles/C.dir/ueb7/loops.c.obj
+build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/ggT/ggT.c.obj CMakeFiles/C.dir/ueb0/ueb0.c.obj CMakeFiles/C.dir/vorl0/vorl0.c.obj CMakeFiles/C.dir/ueb1/benzin.c.obj CMakeFiles/C.dir/dastr/sin/sinDataTable.c.obj CMakeFiles/C.dir/vorl1/vorl1.c.obj CMakeFiles/C.dir/dastr/recursive/recursive.c.obj CMakeFiles/C.dir/ueb4/datentypen.c.obj CMakeFiles/C.dir/dastr/primzahlen/primzahlen.c.obj CMakeFiles/C.dir/ueb5/helper.c.obj CMakeFiles/C.dir/ueb5/calculator.c.obj CMakeFiles/C.dir/dastr/primfactorZerlegung/primfactorZerlegung.c.obj CMakeFiles/C.dir/vorl2/vorl2.c.obj CMakeFiles/C.dir/ueb6/rational.c.obj CMakeFiles/C.dir/ueb6/bruchrechnung.c.obj CMakeFiles/C.dir/ueb7/loops.c.obj CMakeFiles/C.dir/ueb9/prime.c.obj CMakeFiles/C.dir/ueb9/vectors.c.obj CMakeFiles/C.dir/ueb9/ueb9.c.obj CMakeFiles/C.dir/vorl3/matrix.c.obj CMakeFiles/C.dir/vorl3/vorl3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C.dir
